@@ -1,8 +1,8 @@
 
 Design of a Processor
-step1: We write an application using C and then compile using GCC compiler(linux) and measure an output O0
+step1: Write an application using C  code, compile using GCC compiler(linux), measure an output O0
 
-step2: Every Processor has got an architecture. We are going to model that architecture(specifications) in C and we are going to run the application on that model and measure an output O1. Architecture defines different instruction format. we need to check O0 == O1
+step2: Every Processor has got an architecture. We are going to model that architecture spec in C, then run the application on the obtained model to measure an output O1. Architecture defines different instruction format. we need to check O0 == O1
 
 step3: we make a soft copy of the hardware using High Level Language and use a converter to convert the high level language to verilog code. Verilog code of an architecture is called Micro Architecture.From step3 measures an output and check O2==O1.
 

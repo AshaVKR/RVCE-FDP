@@ -1,3 +1,4 @@
+
 Design of a Processor
 step1: We write an application using C and then compile using GCC compiler(linux) and measure an output O0
 
